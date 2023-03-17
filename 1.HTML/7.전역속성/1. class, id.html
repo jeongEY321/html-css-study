@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>class, id</title>
+    <title>Document</title>
 
     <style>
         .btn {
@@ -47,27 +46,25 @@
             background: #f060d1 linear-gradient(#f3baf0, #de56f0);
         }
     </style>
-</head>
 
+</head>
 <body>
 
     <button id="join-btn" class="btn">Join</button>
-    <button class="btn">Login</button>
-    <button class="btn">버튼</button>
+    <button class="btn btn-primary">Login</button>
+    <button class="btn btn-pink">버튼</button>
 
     <script>
 
-        document.getElementById('btn').onclick = function() {
+        document.getElementById('join-btn').onclick = function() {
             alert('버튼이 클릭됨!');
         }
 
+        document.querySelector('.btn-primary').onclick = function() {
+            alert('로그인 버튼이 클릭됨!');
+        }
+
     </script>
-
     
-
-
-
-
 </body>
-
 </html>
