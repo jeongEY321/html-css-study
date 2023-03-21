@@ -1,0 +1,82 @@
+
+
+@import url(./../../common.css);
+
+body {
+    background: #666;
+    font-family: '굴림체', Gulim, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    /* 휴먼모음T */
+    color: #333;
+}
+
+
+div header h1 {
+    background: rgb(14, 14, 92);
+    color: yellow;
+    width: 60%;
+    margin-left: 20%;
+    height: 100px;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    font-family: 'Jua', cursive;
+}
+
+div header h1 strong {
+    color: white;
+    font-size: xx-large;
+}
+
+div header h1 em {
+    color: white;
+    font-size: x-large;
+}
+
+div header h1 span {
+    font-size: medium;
+}
+
+body div div .menu {
+    background: rgb(189, 185, 185);
+    height: 700px;
+    width: 15%;
+    position: relative;
+    float: left;
+    left: 20%;
+    padding: 10px;
+}
+
+.menu li {
+    padding-top: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    float: right;
+    background: white;
+    width: 45%;
+    height: 700px;
+    margin-right: 20%;
+}
+
+h2 {
+    background: rgb(130, 3, 3);
+    color: rgb(201, 201, 32);
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+footer {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    background: rgb(186, 184, 184);
+    margin-right: 20%;
+    margin-left: 20%;
+}
